@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class TestController {
 
-    @Value("${test.param}")
+    @Value("${little.fairy}")
     private String testParam;
 
     @GetMapping("/getTest")
