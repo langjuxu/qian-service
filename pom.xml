@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>qian-cloud</artifactId>
+        <groupId>com.qian.cloud</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../qian-cloud/pom.xml</relativePath>
+    </parent>
+    <artifactId>qian-service</artifactId>
+    <name>qian-service</name>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <description>业务层</description>
+
+    <modules>
+        <module>qian-biz</module>
+        <module>qian-api</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/libs-milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+</project>
